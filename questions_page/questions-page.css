@@ -1,0 +1,180 @@
+.questions-page_container {
+    width: 50%;
+    padding-inline: 4.5rem;
+}
+
+.search-post {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.create-post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-post h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.create-post button {
+    color: white;
+    border: none;
+    align-items: center;
+    border-radius: 10px;
+    padding-inline: 15px;
+    font-size: 14px;
+    height: 50px;
+    background-color: #e43620;
+}
+
+.create-post button:hover {
+    background-color: #dc2626;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e2e8f0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.search-post {
+    gap: 30px
+}
+
+.search-input input {
+    padding: 5px 20px;
+    align-items: center;
+    color: black;
+    background-color: #e2e8f0;
+    border: none;
+    outline: none;
+}
+
+.search-input i {
+    font-size: 20px;
+    color: gray;
+    align-items: center;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.filter button:not(:first-child) {
+    background-color: #e2e8f0;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 20px;
+}
+
+.filter button:not(:first-child):hover {
+    background-color: rgb(203 213 225);
+}
+
+.filter button:first-child {
+    background-color: #818CF8;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 20px;
+    color: white;
+}
+
+.filter button:first-child:hover {
+    background-color: rgb(203 213 225);
+}
+
+/* card */
+.card_content {
+    background-color: #F4F4F5;
+    padding: 2rem 2.75rem;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.card h3:hover {
+    color: #e43620
+}
+
+.author {
+    margin-top: 20px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.skills button {
+    border: none;
+    text-transform: uppercase;
+    background-color: rgb(203 213 225);
+    color: rgb(113 113 122);
+    font-size: 10px;
+    padding: 10px 10px;
+    margin-right: 5px;
+    border-radius: 6px;
+}
+
+.skills button:hover {
+    background-color: rgb(129 140 248);
+    color: rgb(244 244 245)
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.author-info {
+    font-size: 14px;
+    align-items: center;
+}
+
+.author-info:hover {
+    color: #e43620;
+}
+
+.author-info img {
+    border-radius: 50%;
+}
+
+.data-info {
+    font-size: 12px;
+}
+
+.interactions {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 10px
+}
+
+.interactions svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

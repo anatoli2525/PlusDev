@@ -1,0 +1,187 @@
+.questions-page_container {
+    width: 50%;
+    padding-inline: 4.5rem;
+}
+
+.search-post {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.create-post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-post h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.create-post button {
+    color: white;
+    border: none;
+    align-items: center;
+    border-radius: 10px;
+    padding-inline: 15px;
+    font-size: 14px;
+    height: 50px;
+    background-color: #e43620;
+}
+
+.create-post button:hover {
+    background-color: #dc2626;
+}
+
+.search {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e2e8f0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.search-post {
+    gap: 30px
+}
+
+.search-input input {
+    padding: 5px 20px;
+    align-items: center;
+    color: black;
+    background-color: #e2e8f0;
+    border: none;
+    outline: none;
+}
+
+.search-input i {
+    font-size: 20px;
+    color: gray;
+    align-items: center;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filter {
+    background-color: #e2e8f0;
+    border-radius: 10px;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.filter button:not(:first-child) {
+    background-color: #e2e8f0;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 20px;
+}
+
+.filter button:not(:first-child):hover {
+    background-color: rgb(203 213 225);
+}
+
+.filter button:first-child {
+    background-color: #818CF8;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 20px;
+    color: white;
+}
+
+.filter button:first-child:hover {
+    background-color: rgb(203 213 225);
+}
+
+/* tag */
+
+.tags-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 20px 30px;
+    width: 180px;
+  }
+  
+  .flex-container:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .tag-link {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+  }
+  
+  .tag {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    width: 100px;
+    background-color: #e2e8f0;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .tag:hover {
+    background-color: #3d4852;
+    border: none;
+  }
+  
+  .post-count,
+  .question-count {
+    margin-top: 0.5rem;
+    color: #667b8a;
+  }
+  
+  .follow-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    height: 2.5rem;
+    margin-top: 0.625rem;
+    background-color: #1a61db;
+    color: #f0f4f8;
+  }
+  
+  .follow-btn:hover {
+    background-color: #2c7be5;
+  }
+  
+  .follow-btn:focus-visible {
+    outline: 2px solid #1a61db;
+  }
+  

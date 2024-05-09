@@ -1,0 +1,203 @@
+.questions-page_container {
+    width: 50%;
+    padding-inline: 4.5rem;
+}
+
+.search-post {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.create-post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-post h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.create-post button {
+    color: white;
+    border: none;
+    align-items: center;
+    border-radius: 10px;
+    padding-inline: 15px;
+    font-size: 14px;
+    height: 50px;
+    background-color: #e43620;
+}
+
+.create-post button:hover {
+    background-color: #dc2626;
+}
+
+.search {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #e2e8f0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.search-post {
+    gap: 30px
+}
+
+.search-input input {
+    padding: 5px 20px;
+    align-items: center;
+    color: black;
+    background-color: #e2e8f0;
+    border: none;
+    outline: none;
+}
+
+.search-input i {
+    font-size: 20px;
+    color: gray;
+    align-items: center;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.filter {
+    background-color: #e2e8f0;
+    border-radius: 10px;
+    color: gray;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.filter button:not(:first-child) {
+    background-color: #e2e8f0;
+    color: gray;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 20px;
+}
+
+.filter button:not(:first-child):hover {
+    background-color: rgb(203 213 225);
+}
+
+.filter button:first-child {
+    background-color: #818CF8;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline: 20px;
+    color: white;
+}
+
+.filter button:first-child:hover {
+    background-color: rgb(203 213 225);
+}
+
+
+/* author */
+
+.author-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap:30px;
+}
+
+.author {
+    background-color: white;
+    border: 1px lightgray solid;
+    transition: box-shadow 0.3s ease;
+    border-radius: 10px;
+    width: 170px;
+    padding: 2rem;
+}
+
+.author:hover {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+    border-radius: 50%;
+}
+
+.author-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.author-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.author-info h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-weight: 700;
+}
+
+.author-info h3:hover {
+    color: rgb(239 68 68)
+}
+
+.author-info span {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    color: gray
+}
+
+.author-info span:hover {
+    color: rgb(239 68 68)
+}
+
+.author-buttons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px
+}
+
+.author-buttons button {
+    border: none;
+    text-transform: uppercase;
+    background-color: #ccc;
+    color: rgb(113 113 122);
+    font-size: 10px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+
+.author-buttons button:hover {
+    background-color: rgb(129 140 248);
+    color: rgb(244 244 245)
+}
